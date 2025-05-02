@@ -1,7 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+<<<<<<< HEAD
 import HomePage from './pages/HomePage';
 import AuthPage from './pages/AuthPage';
+=======
+import HomePage from './pages/HomePage'
+import AuthPage from './pages/AuthPage'
+>>>>>>> e78f51a3bb8a1757f4b334f487d2915ef59eca88
 import DashboardPage from './pages/DashboardPage';
 import UserDashboard from './pages/UserDashboard';
 import RoomsPage from './pages/RoomsPage';
@@ -82,4 +87,8 @@ const NavLink = styled(Link)`
   }
 `;
 
+<<<<<<< HEAD
 export default App
+=======
+export default App
+>>>>>>> e78f51a3bb8a1757f4b334f487d2915ef59eca88
