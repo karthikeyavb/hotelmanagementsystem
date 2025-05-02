@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { FaHotel, FaCalendarAlt, FaConciergeBell, FaUtensils, FaSwimmingPool, FaUserTie } from 'react-icons/fa';
@@ -14,7 +15,7 @@ const HomePage = () => {
         >
           <HeroTitle>Welcome to Luxury Hotel</HeroTitle>
           <HeroSubtitle>Experience the ultimate in comfort and elegance</HeroSubtitle>
-          <BookNowButton>Book Now</BookNowButton>
+          <Link to="/auth" style={{ textDecoration: 'none' }}><BookNowButton>Book Now</BookNowButton></Link>
         </motion.div>
       </HeroSection>
 
